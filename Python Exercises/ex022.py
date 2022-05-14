@@ -1,0 +1,7 @@
+nome = str(input('Qual o seu nome completo? '))
+maiusculas = nome.upper()
+minusculas = nome.lower()
+nletras = len(nome)-nome.count(' ')
+nletrasum = (nome.split())
+contar = len(nletrasum[1])
+print(f'Seu nome com todas as letras maiúsculas: {maiusculas} \n Seu nome com todas as letras minúsculas: {minusculas} \n Número de letras do seu nome: {nletras} \n Seu primeiro nome é: {nletrasum[0]} e ele tem {contar} letras.')
